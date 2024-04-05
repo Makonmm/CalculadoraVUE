@@ -24,17 +24,9 @@ const calculaResultado = () => {
 
 <template>
   <div class="container">
-    <Cabecalho :estado="estado" />
+    <Cabecalho  />
     <Formulario :estado="estado" :calculaResultado="calculaResultado" />
   </div>
 </template>
 
 
-<style scoped>
-.form-control{
-  width: 180px;
-}
-
-
-
-</style>
